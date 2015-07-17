@@ -11,7 +11,6 @@ import javax.persistence.ManyToMany;
 
 /**
  * Entity implementation class for Entity: Product
- *
  */
 @Entity
 public class Product implements Serializable {
@@ -32,10 +31,6 @@ public class Product implements Serializable {
 
 	public void setOrders(Set<Order> aOrders) {
 		orders = aOrders;
-	}
-
-	public Product() {
-		super();
 	}
 
 	public Integer getId() {

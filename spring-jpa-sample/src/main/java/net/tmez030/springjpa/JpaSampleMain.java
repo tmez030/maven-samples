@@ -13,7 +13,8 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class JpaSampleMain {
 
 	/**
-	 * @param args
+	 * Main method
+	 * @param args command line args
 	 */
 	public static void main(String[] args) {
 //		ApplicationContext context = new AnnotationConfigApplicationContext(JpaSampleConfiguration.class);

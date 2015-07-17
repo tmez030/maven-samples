@@ -37,9 +37,7 @@ public class Order implements Serializable {
 	public void setProducts(Set<Product> aProducts) {
 		products = aProducts;
 	}
-	public Order() {
-		super();
-	}   
+
 	public Integer getId() {
 		return this.id;
 	}

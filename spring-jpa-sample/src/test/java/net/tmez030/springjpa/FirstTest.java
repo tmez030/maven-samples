@@ -53,10 +53,10 @@ public class FirstTest {
 		Order tempNext = tempReadProduct.getOrders().iterator().next();
 		assertEquals("4711", tempNext.getName());
 		
-		Order tempNewOrder = new Order();
-		tempNewOrder.setName("New Order");
-		tempReadProduct.getOrders().add(tempNewOrder);
-		dao.saveProduct(tempReadProduct);
+//		Order tempNewOrder = new Order();
+//		tempNewOrder.setName("New Order");
+//		tempReadProduct.getOrders().add(tempNewOrder);
+//		dao.saveProduct(tempReadProduct);
 	}
 
 	/**
